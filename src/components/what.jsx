@@ -6,7 +6,7 @@ import how from '../assets/icon-photo.svg';
 
 function What() {
   return (
-    <div className='relative font-mono py-10 px-4' id='what'>
+    <div className='relative font-mono py-10 px-4' id='what-i-do'>
       <div className='relative text-center mb-12'>
         <h1 className='text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-mono text-gray-400 font-bold opacity-20'>SERVICES</h1>
         <h2 className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black'>

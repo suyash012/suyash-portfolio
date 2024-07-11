@@ -17,7 +17,7 @@ const Project = () => {
     : projects.filter(project => project.category.toLowerCase() === filter.toLowerCase());
 
   return (
-    <div className='yeloo font-mono relative py-16 px-4' id='portfolio'>
+    <div className='yeloo font-mono relative min-h-[370vh] lg:min-h-[120vh] py-16 px-4' id='portfolio'>
       <div className='relative text-center mb-12'>
         <h1 className='text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-mono text-gray-500 font-bold opacity-20'>PROJECTS</h1>
         <h2 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black">
