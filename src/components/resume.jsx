@@ -32,7 +32,7 @@ const ExperienceItem = ({ position, year, company }) => (
 
 const Resume = () => {
   return (
-    <div className='yelo relative font-mono min-h-[320vh] lg:min-h-[210vh] py-16 px-4' id='resume'>
+    <div className='yelo relative font-mono min-h-[270vh] lg:min-h-[210vh] py-16 px-4' id='resume'>
       <div className='relative text-center mb-12'>
         <h1 className='text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-mono text-gray-500 font-bold opacity-20'>RESUME</h1>
         <h2 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black">
